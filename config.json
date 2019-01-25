@@ -1,0 +1,26 @@
+{
+  "wifi": {
+    "hostname": "esp-example",
+    "ssid": "myhomewifi",
+    "pwd": "wifipassword"
+    },
+  "gpio": {
+    "led_scl": 5,
+    "led_sda": 4,
+    "sns_scl": 0,
+    "sns_sda": 2
+    },
+  "mqtt": {
+    "server": "mymqttserver.example.com",
+    "user": "mqtt",
+    "pwd": "mqtt",
+    "rate": 180,
+    "topic_temp": "myhouse/envir/bedroom1/temp",
+    "topic_rh": "myhouse/envir/bedroom1/rh"
+    },
+  "time": {
+    "tz_offset": -6,
+    "update_rate": 3480
+    }
+}
+
